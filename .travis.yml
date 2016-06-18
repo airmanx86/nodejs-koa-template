@@ -1,0 +1,12 @@
+# Ubuntu 14.04
+dist: trusty
+
+services:
+  - docker
+
+script:
+  - cont-delivery/build.sh
+
+branches:
+  only:
+  - master

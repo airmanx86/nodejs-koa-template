@@ -1,4 +1,7 @@
 # nodejs-koa-template
+
+[![Build Status](https://travis-ci.org/airmanx86/nodejs-koa-template.svg?branch=master)](https://travis-ci.org/airmanx86/nodejs-koa-template)
+
 A NodeJS template using koa as the web framework.
 Also come with logging, task runner and QA tools.
 This project is based on [base-template](https://github.com/airmanx86/base-template).

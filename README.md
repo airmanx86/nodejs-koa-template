@@ -7,7 +7,7 @@ Also come with logging, task runner and QA tools.
 This project is based on [base-template](https://github.com/airmanx86/base-template).
 
 ## How to use the template
-1. Make a new git repository base on master branch of `nodejs-koa-template`.
+Make a new git repository base on master branch of `nodejs-koa-template`.
 ```
 mkdir your-service
 cd your-service
@@ -15,11 +15,11 @@ git init
 git fetch https://github.com/airmanx86/nodejs-koa-template.git
 git reset --hard FETCH_HEAD
 ```
-2. Create your remote repository and obtain the URL
+Create your remote repository and obtain the URL
 ```
 git remote add origin https://github.com/your-name/your-service.git
 git remote -v
-git push origin master
+git push -u origin master
 ```
 
 ## Run the app

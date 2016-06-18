@@ -25,6 +25,8 @@ module.exports = (grunt) => {
                     src: [
                         'app/**',
                         'package.json',
+                        'Dockerfile',
+                        'cont-delivery/**',
                     ],
                     dest: 'dist/',
                 }],

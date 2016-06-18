@@ -4,6 +4,7 @@
   "description": "project-description",
   "main": "./app/server.js",
   "scripts": {
+    "build": "cont-delivery/build.sh",
     "test": "echo \"THIS PROJECT USES GRUNT: To run the tests call `grunt test`\" && exit 1"
   },
   "repository": {

@@ -27,7 +27,7 @@ co(function* setup() {
 
     const runningPort = useHttps ? process.env.HTTPS_PORT : process.env.HTTP_PORT;
     logger.info(`Service started on port ${runningPort} (NODE_ENV: ${process.env.NODE_ENV})`);
-    yield true;
+    yield Promise.resolve(true);
 }).catch((err) => {
     logger.error('There was an error bootstrapping the service:');
     logger.error(err.stack);
